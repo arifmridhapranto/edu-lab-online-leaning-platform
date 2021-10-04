@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fas fa-user-graduate",
+    "id": 1,
+    "title": "Exclusive Advisor",
+    "description": "our teachers ar most expert and experienced ,we care about you and your future.We all helps you to grow up and shine your future. "
+  },
+
+  {
+    "icon": " fas fa-book",
+    "id": 2,
+    "title": "Digital Library",
+    "description": "We provides all notes and book what you need in your future study.our all course materials available on digital library."
+  },
+
+  {
+    "icon": "fas fa-chalkboard-teacher",
+    "id": 3,
+    "title": "Online Tutoring",
+    "description": "We provides extra classes for your batter study. we help you to improve your performance and understand everything clearly"
+  }
+]

@@ -1,10 +1,72 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.css";
+import logo from "../../img/edulab.png";
+import "./Footer.css";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
-    <div>
-      <h1>we are footer</h1>
-    </div>
+    <>
+      <div className='container footer'>
+        <div className='logo'>
+          <img src={logo} alt='' />
+        </div>
+        <div className='menu'>
+          <NavLink
+            className='menu-item'
+            to='/home'
+            activeStyle={{
+              borderBottom: "2px solid #00243a",
+            }}>
+            Home
+          </NavLink>
+          <NavLink
+            className='menu-item'
+            to='/about'
+            activeStyle={{
+              borderBottom: "2px solid #00243a",
+            }}>
+            About
+          </NavLink>
+          <NavLink
+            className='menu-item'
+            to='/services'
+            activeStyle={{
+              borderBottom: "2px solid #00243a",
+            }}>
+            Services
+          </NavLink>
+          <NavLink
+            className='menu-item'
+            to='/contact'
+            activeStyle={{
+              borderBottom: "2px solid #00243a",
+            }}>
+            Contact
+          </NavLink>
+          <NavLink
+            className='menu-item'
+            to='/blogs'
+            activeStyle={{
+              borderBottom: "2px solid #00243a",
+            }}>
+            Blogs
+          </NavLink>
+        </div>
+        <div className='follow-us'>
+          <i className='fab fa-facebook'></i>
+          <i className='fab fa-linkedin'></i>
+          <i className='fab fa-github'></i>
+        </div>
+      </div>
+      <div className='copyright text-center'>
+        <p>
+          Copyright &copy; reserved by |
+          <a href='https://facebook.com/pranto.mridha.7' target='_blank'>
+            Pranto Mridha
+          </a>
+        </p>
+      </div>
+    </>
   );
 };
 

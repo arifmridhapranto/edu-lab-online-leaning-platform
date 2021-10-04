@@ -1,0 +1,38 @@
+.card-img {
+  width: 286 px;
+  height: 180px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutor-details {
+  display: flex;
+  align-items: center;
+}
+.tutor-details img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.tutor-details h6 {
+  margin-left: 10px;
+  font-size: 16px;
+  color: black;
+}
+.price p {
+  padding: 6px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.course-title {
+  font-size: 26px;
+  color: black;
+}
+.rating-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

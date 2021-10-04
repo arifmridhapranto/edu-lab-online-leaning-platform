@@ -1,25 +1,59 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from "../../edulab.jpg";
+import logo from "../../img/edulab.png";
 import "./Header.css";
 
 const Header = () => {
   return (
-    <>
-      <div>
+    <div className='header-main container'>
+      <div className=''>
         <NavLink to='/'>
           <img src={logo} alt='' className='logo' />
         </NavLink>
-        <div className='me-auto'>
-          <NavLink to='/home'>Home</NavLink>
-          <NavLink to='/about'>About</NavLink>
-          <NavLink to='/services'>Services</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
-          <NavLink to='/blogs'>Blogs</NavLink>
-        </div>
       </div>
-    </>
+      <div className='ms-auto menu'>
+        <NavLink
+          className='menu-item'
+          to='/home'
+          activeStyle={{
+            borderBottom: "2px solid #00243a",
+          }}>
+          Home
+        </NavLink>
+        <NavLink
+          className='menu-item'
+          to='/about'
+          activeStyle={{
+            borderBottom: "2px solid #00243a",
+          }}>
+          About
+        </NavLink>
+        <NavLink
+          className='menu-item'
+          to='/services'
+          activeStyle={{
+            borderBottom: "2px solid #00243a",
+          }}>
+          Services
+        </NavLink>
+        <NavLink
+          className='menu-item'
+          to='/contact'
+          activeStyle={{
+            borderBottom: "2px solid #00243a",
+          }}>
+          Contact
+        </NavLink>
+        <NavLink
+          className='menu-item'
+          to='/blogs'
+          activeStyle={{
+            borderBottom: "2px solid #00243a",
+          }}>
+          Blogs
+        </NavLink>
+      </div>
+    </div>
   );
 };
 

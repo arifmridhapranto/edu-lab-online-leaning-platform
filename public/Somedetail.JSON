@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "fas fa-users",
+    "count": 47184,
+    "title": "Active User"
+  },
+  {
+    "id": 2,
+    "icon": "fas fa-chalkboard-teacher",
+    "count": 152,
+    "title": "Instructor"
+  },
+  {
+    "id": 1,
+    "icon": "fas fa-sticky-note",
+    "count": 98258,
+    "title": "Enrollment    "
+  },
+  {
+    "id": 1,
+    "icon": "fas fa-graduation-cap",
+    "count": 126,
+    "title": "Courses"
+  }
+]

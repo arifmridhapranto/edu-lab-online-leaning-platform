@@ -44,14 +44,6 @@ const Header = () => {
           }}>
           Contact
         </NavLink>
-        <NavLink
-          className='menu-item'
-          to='/blogs'
-          activeStyle={{
-            borderBottom: "2px solid #00243a",
-          }}>
-          Blogs
-        </NavLink>
       </div>
     </div>
   );

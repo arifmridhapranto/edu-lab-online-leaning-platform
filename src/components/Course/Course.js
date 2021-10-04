@@ -25,7 +25,7 @@ const Course = (props) => {
       <Card.Body>
         <Card.Title className='course-title'>{title}</Card.Title>
         <div className='rating-detail'>
-          <p>{rating}</p>
+          <p>Rating: {rating}</p>
           <p>({review}K review)</p>
         </div>
       </Card.Body>

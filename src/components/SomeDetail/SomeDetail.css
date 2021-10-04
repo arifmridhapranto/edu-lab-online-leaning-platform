@@ -1,20 +1,11 @@
 .some-detail {
   margin: 50px 0;
   background-color: black;
-  height: 25vh;
+  height: 30vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   justify-content: center;
   text-align: center;
   padding: 30px;
-}
-.detail {
-  color: white;
-}
-.detail i {
-  font-size: 40px;
-}
-.detail h1 {
-  font-size: 24px;
 }

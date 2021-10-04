@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./SomeDetail.css";
+import Detail from "../Detail/Detail";
 
 const SomeDetail = () => {
   const [someDetail, setSomeDetail] = useState([]);
@@ -11,11 +12,7 @@ const SomeDetail = () => {
   return (
     <div className='some-detail container-fluid'>
       {someDetail.map((detail) => (
-        <div className='detail'>
-          <i className={detail.icon}></i>
-          <h1>{detail.count}</h1>
-          <h1>{detail.title}</h1>
-        </div>
+        <Detail key={detail.id} detail={detail}></Detail>
       ))}
     </div>
   );

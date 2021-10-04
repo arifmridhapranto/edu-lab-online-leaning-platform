@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import logo from "../../img/edulab.png";
 import "./Footer.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -58,12 +58,12 @@ const Footer = () => {
           <i className='fab fa-github'></i>
         </div>
       </div>
-      <div className='copyright text-center'>
+      <div className='copyright text-center p-2'>
         <p>
           Copyright &copy; reserved by |
-          <a href='https://facebook.com/pranto.mridha.7' target='_blank'>
+          <Link to='https://facebook.com/pranto.mridha.7' target='_blank'>
             Pranto Mridha
-          </a>
+          </Link>
         </p>
       </div>
     </>
